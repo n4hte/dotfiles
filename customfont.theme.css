@@ -1,0 +1,51 @@
+//META{"name":"Custom Font","description":"Replace the 'ubuntu mono' in the css to whatever font you want. Notepad++ has a find and replace feature which works well.","author":"n4hte","version":"1.0"}*//{}
+
+@font-face {
+    font-family: 'ubuntu mono';
+    font-style: normal;
+    font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'ubuntu mono';
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'ubuntu mono';
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'ubuntu mono';
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* ----------------------------------------------------------------------- */
+
+*:not(code), ::-webkit-input-placeholder {
+    font-family: ubuntu mono !important;
+    font-size: var(--font-size, initial);
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
+}
+
+.da-markup {
+    line-height: var(--line-spacing, initial);
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* SETTINGS */
+
+:root {
+    --font-size: 15px;        /* Font size (Over 16 px starts to cause issues) */
+    --word-spacing: 3px;      /* Word spacing */
+    --line-spacing: 2;        /* Line spacing */
+    --letter-spacing: 0.25px; /* Letter Spacing */
+}
+
+/* ----------------------------------------------------------------------- */

@@ -1,0 +1,4 @@
+//META{"name":"TitleLess","description":"Removes the Titlebar","author":"n4hte & On3","version":"1.0"}*//
+.typeWindows-1za-n7 {
+    display: none;
+}
