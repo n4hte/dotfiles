@@ -21,7 +21,7 @@ REGEDIT4
 
 ;; Transparency of the main window (28..FF). FF - opaque.
 "AlphaValue"=hex:ff
-;; Transparent «User screen» while panel(s) is turned off
+;; Transparent Â«User screenÂ» while panel(s) is turned off
 ;"UseColorKey"=hex:01
 ;"ColorKey"=dword:00010101
 
@@ -167,7 +167,7 @@ REGEDIT4
 ;"SleepInBackground"=hex:01
 
 ;; Turn on 'User screen' transparency, when panel(s) is lifted up or hided.
-;; You may temporary reveal «User screen» by depressing Ctrl-Alt-Shift.
+;; You may temporary reveal Â«User screenÂ» by depressing Ctrl-Alt-Shift.
 ;"UserScreenTransparent"=hex:00
 
 ;; No comments
